@@ -1,6 +1,14 @@
 # Spring-Swagger-Global-Exceptionhandlers
 This project implements Swagger UI with Spring frame work and handles Global Exception Controllers
 
+Advantages of Swagger UI
+------------
+1) Swagger plugin helps in creating API documentation . Here from the URI definition, Swagger Spec can be generated and used in Swagger UI by development team to maintain API documentation.
+  
+2) Swagger definition can be used here if Development team is using Swagger for maintaining the API documentation and provides testing team the same."
+3) once you have a swagger definition, it's faster to create test cases inside SoapUI and Ready! tools.  You'll know all the paths, parameters, and expected payloads from the API.
+
+
 Exception Handling
 ----
 Spring MVC provides several complimentary approaches to exception handling
