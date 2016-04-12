@@ -1,5 +1,6 @@
 # Spring-Swagger-Global-Exceptionhandlers
 This project implements Swagger UI with Spring frame work and handles Global Exception Controllers
+Swagger Version : 0.6.6
 
 Advantages of Swagger UI
 ------------
@@ -7,6 +8,17 @@ Advantages of Swagger UI
   
 2) Swagger definition can be used here if Development team is using Swagger for maintaining the API documentation and provides testing team the same."
 3) once you have a swagger definition, it's faster to create test cases inside SoapUI and Ready! tools.  You'll know all the paths, parameters, and expected payloads from the API.
+
+
+Note: If we want to use the latest version of Swagger ,please make sure to add below bean instanciation to your spring context xml file.Also please make sure to add compatible jackson,gova,swagger annotation joda ,etc .. libraries to latest version of swagger.
+
+ <!-- This will be used if the swagger version starts from 0.8.2 -->
+<!--   <bean id="documentationConfig" class="com.mangofactory.swagger.configuration.SpringSwaggerConfig" />
+ --> 
+
+ <!-- This will be used if the swagger version before 0.8.2
+ <bean id="documentationConfig" class="com.mangofactory.swagger.configuration.DocumentationConfig"/> 
+ -->
 
 
 Exception Handling
