@@ -40,3 +40,9 @@ Exception handling methods annotated with @ExceptionHandler,@InitBinder and @Mod
 What we have to do is create a class annotated with @ControllerAdvice and create required method which will be annotated with @ExceptionHandler for global exception handling, @InitBinder for global init binding and @ModelAttribute for global model attributes addition
 
 Whenever a request comes to controller and its method with @RequestMapping and if there is no locally defined @ExceptionHandler, @InitBinder and @ModelAttribute, the globally defined class annotated with @ControllerAdvice is served. 
+
+
+
+
+
+
